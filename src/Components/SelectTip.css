@@ -1,0 +1,41 @@
+.st {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #5E7A7D;
+    margin-left: 10%;
+    margin-top: 5%;
+
+}
+
+.precents {
+    width: 379px;
+    height: 48px;
+    margin-left: 8%;
+    margin-top: 2%;
+
+
+}
+
+.error2 {
+    position: absolute;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+    text-align: right;
+
+    color: #E17457;
+    margin-left: 69%;
+    margin-top: -4%;
+
+}
+
+.custom::placeholder {
+    color: #547878;
+}

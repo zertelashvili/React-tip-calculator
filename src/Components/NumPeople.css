@@ -1,0 +1,38 @@
+.np {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #5E7A7D;
+    margin-left: 10%;
+    margin-top: 20%;
+
+}
+
+.inpnp {
+    width: 379px;
+    height: 48px;
+    background: #F3F9FA;
+    border-radius: 5px;
+    margin-left: 10%;
+    border: none;
+    text-align: right;
+    margin-top: 5%;
+}
+
+.ptnpdiv {
+    position: absolute;
+    left: 13%;
+    margin-top: -7%;
+
+}
+
+.inpnp::placeholder {
+    font-family: 'Space Mono';
+
+    color: #00474B;
+    mix-blend-mode: normal;
+    opacity: 0.35;
+
+}

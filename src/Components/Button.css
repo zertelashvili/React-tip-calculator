@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.btn {
+    width: 117px;
+    height: 48px;
+    background: #00474B;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: 2%;
+    margin-top: 2%;
+
+
+}
+
+.custom {
+    width: 118px;
+    height: 48px;
+    background: #F3F9FA;
+    border-radius: 5px;
+    position: absolute;
+    margin-left: 62%;
+    margin-top: -11%;
+
+
+
+}
+
+
+
+.btn:hover {
+    background: #26C2AE;
+    border-radius: 5px;
+    color: #00474B;
+
+}
+
+#active-btn {
+    background: #26C2AE;
+    border-radius: 5px;
+    color: #00474B;
+}
+
+.custom::placeholder {
+    font-size: 20px;
+}

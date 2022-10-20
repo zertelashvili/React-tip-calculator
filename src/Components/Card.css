@@ -1,0 +1,41 @@
+.container {
+    max-width: 1920px;
+    width: 100vw;
+    height: 100vh;
+    background: #C5E4E7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+
+    color: #3D6666;
+    font-weight: bolder;
+
+}
+
+.title2 {
+    color: rgba(61, 102, 102, 1);
+    font-weight: bolder;
+
+}
+
+.card {
+    max-width: 920px;
+    width: 90%;
+    height: 481px;
+    background: #FFFFFF;
+    box-shadow: 0px 32px 43px rgba(79, 166, 175, 0.200735);
+    border-radius: 25px;
+    margin-top: 87px;
+    position: relative;
+}
+
+@media (max-width:375px) {
+    .container {
+        width: 100vw;
+        height: 100vh;
+    }
+}

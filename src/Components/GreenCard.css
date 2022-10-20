@@ -1,0 +1,184 @@
+.greencard {
+    max-width: 413px;
+    width: 100%;
+    height: 417px;
+    background: #00474B;
+    border-radius: 15px;
+    margin-left: 110%;
+    margin-top: -90%;
+
+    position: relative;
+}
+
+.tip {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    position: absolute;
+    left: 10%;
+    top: 10%;
+
+
+}
+
+.pers {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 19px;
+    color: #7F9D9F;
+    position: absolute;
+    left: 10%;
+    top: 16%;
+
+
+}
+
+.price {
+    position: absolute;
+    left: 52%;
+    top: 8%;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 71px;
+    text-align: right;
+    letter-spacing: -1px;
+    color: #26C2AE;
+
+}
+
+.total {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    position: absolute;
+    left: 10%;
+    top: 36%;
+
+}
+
+.pers2 {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 19px;
+    color: #7F9D9F;
+    position: absolute;
+    left: 10%;
+    top: 42%;
+
+}
+
+.price2 {
+    position: absolute;
+    left: 52%;
+    top: 33%;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 71px;
+    text-align: right;
+    letter-spacing: -1px;
+    color: #26C2AE;
+}
+
+.reset {
+    width: 333px;
+    height: 48px;
+    background: #26C2AE;
+    border-radius: 5px;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #00474B;
+    position: absolute;
+    left: 10%;
+    top: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.reset[disabled] {
+    opacity: 0.5;
+}
+
+.reset:not([disabled]):hover {
+    background: #9FE8DF;
+
+    border-radius: 5px;
+}
+
+@media(max-width:375px) {
+
+
+    .card {
+        height: 950px;
+        position: relative;
+    }
+
+    .greencard {
+        width: 300px;
+        margin-top: 15%;
+        margin-left: 5%;
+        position: absolute;
+
+    }
+
+    .reset {
+        width: 270px;
+        margin-left: -5%;
+    }
+
+    .inp {
+        width: 280px;
+    }
+
+    .inpnp {
+        width: 280px;
+
+    }
+
+    .precents {
+        width: 300px;
+    }
+
+    .custom {
+        margin-left: 130px;
+
+
+    }
+
+    .np {
+        margin-top: 40%;
+    }
+
+    .error {
+        display: none;
+    }
+
+    .error3 {
+        display: none;
+    }
+
+    .error2 {
+        display: none;
+    }
+
+}
