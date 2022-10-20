@@ -4,10 +4,12 @@
     height: 417px;
     background: #00474B;
     border-radius: 15px;
-    margin-left: 110%;
+    margin-left: 107%;
     margin-top: -90%;
 
-    position: relative;
+    position: absolute;
+
+
 }
 
 .tip {
